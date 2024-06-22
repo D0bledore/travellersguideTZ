@@ -68,3 +68,7 @@ nav {
         grid-column-gap: 20px;
     }
 }
+
+#discover {
+    padding-bottom: 5%;
+}
