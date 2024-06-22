@@ -12,6 +12,23 @@ h1 {
     font-family: "Kanit", sans-serif;
     font-weight: 700;
     font-style: normal;
+    background-color: #000;
+    color: #fff;}
+
+.flex-row-images {
+    display: flex;
+    justify-content: space-around;
+    height: 20vw;
+    width: 100%;
+    padding: 3px 0;
+    box-shadow:2px 4px 2px rgba(0, 0, 0, 0.3);
+    gap: 1px;
+
+}
+
+.flex-row-images > img {
+    height: auto;
+    width: auto;;
 }
 
 nav {
