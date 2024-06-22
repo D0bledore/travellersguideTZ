@@ -26,11 +26,6 @@ h1 {
 
 }
 
-.flex-row-images > img {
-    height: auto;
-    width: auto;;
-}
-
 nav {
     position: fixed;
     bottom: 0;
