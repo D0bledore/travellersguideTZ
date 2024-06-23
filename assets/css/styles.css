@@ -44,8 +44,7 @@ nav {
 
 .slogan {
     text-align: center;
-    font-weight: bold;
-    font-size: 5vw;
+    font-size: 1.5em;
 }
 
 .flex-grid {
@@ -61,11 +60,20 @@ nav {
     margin: 10px 0;
 }
 
+.section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
 @media(min-width: 768px) {
     .flex-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 20px;
+    }
+
+    .slogan {
+        font-size: 2em;
     }
 }
 
