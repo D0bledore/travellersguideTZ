@@ -84,13 +84,13 @@ nav a {
     text-align: justify;
 }
 
-.section a {
+#landing-page .section a {
     text-decoration: none;
     color: black;
 }
 
 .section-link:hover {
-    background-color: burlywood;
+    background-color: rgba(222, 184, 135, 0.007);
 }
 
 @media(min-width: 768px) {
@@ -105,6 +105,7 @@ nav a {
     }
 }
 
+/* DISCOVER ARTICLE */
 #discover {
     padding: 0 2% 7% 2%;
 }
@@ -116,6 +117,10 @@ nav a {
     padding: 2%;
 }
 
+#discover p {
+    padding: 5px 0;
+}
+
 #discover figure {
     display: flex;
     flex-direction: column;
@@ -125,6 +130,5 @@ nav a {
 
 #discover img {
     padding: 2%;
-    width: 100%;
-    max-width: 380px;
+    max-width: 100%;
 }
