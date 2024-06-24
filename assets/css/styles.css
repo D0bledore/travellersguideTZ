@@ -58,7 +58,7 @@ nav a {
 
 /* LANDING PAGE */
 #landing-page {
-    padding: 20px 20px 0 20px;
+    padding: 0 1rem;
 }
 
 .flex-grid {
@@ -128,7 +128,19 @@ nav a {
     padding: 2%;
 }
 
+#discover figcaption {
+    text-align: justify;
+}
+
 #discover img {
     padding: 2%;
     max-width: 100%;
+}
+
+.source {
+    text-align: left; !important
+}
+
+iframe {
+    width: 100%;
 }
