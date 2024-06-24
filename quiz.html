@@ -29,7 +29,70 @@
         </div>
     </header>
     <!-- Main Content -->
-    <main>TANZANIA QUIZ 101</main>
+    <main>
+        <div class="quiz-container">
+            <h2>Tanzania 101 Quiz</h2>
+            <form id="quiz-form">
+                <div class="question">
+                    <h3>1. What is the capital city of Tanzania?</h3>
+                    <div class="options">
+                        <label><input type="radio" name="q1" value="Dodoma"> Dodoma</label>
+                        <label><input type="radio" name="q1" value="Dar es Salaam"> Dar es Salaam</label>
+                        <label><input type="radio" name="q1" value="Arusha"> Arusha</label>
+                        <label><input type="radio" name="q1" value="Mwanza"> Mwanza</label>
+                    </div>
+                    <div class="answer" id="answer1">Correct answer: Dodoma</div>
+                </div>
+
+                <div class="question">
+                    <h3>2. Who was the first President of Tanzania?</h3>
+                    <div class="options">
+                        <label><input type="radio" name="q2" value="Julius Nyerere"> Julius Nyerere</label>
+                        <label><input type="radio" name="q2" value="Jakaya Kikwete"> Jakaya Kikwete</label>
+                        <label><input type="radio" name="q2" value="Benjamin Mkapa"> Benjamin Mkapa</label>
+                        <label><input type="radio" name="q2" value="John Magufuli"> John Magufuli</label>
+                    </div>
+                    <div class="answer" id="answer2">Correct answer: Julius Nyerere</div>
+                </div>
+
+                <div class="question">
+                    <h3>3. What is the highest peak in Tanzania?</h3>
+                    <div class="options">
+                        <label><input type="radio" name="q3" value="Mount Kilimanjaro"> Mount Kilimanjaro</label>
+                        <label><input type="radio" name="q3" value="Mount Meru"> Mount Meru</label>
+                        <label><input type="radio" name="q3" value="Mount Hanang"> Mount Hanang</label>
+                        <label><input type="radio" name="q3" value="Mount Rungwe"> Mount Rungwe</label>
+                    </div>
+                    <div class="answer" id="answer3">Correct answer: Mount Kilimanjaro</div>
+                </div>
+
+                <div class="question">
+                    <h3>4. Which of the following is a UNESCO World Heritage Site in Tanzania?</h3>
+                    <div class="options">
+                        <label><input type="radio" name="q4" value="Ngorongoro Crater"> Ngorongoro Crater</label>
+                        <label><input type="radio" name="q4" value="Selous Game Reserve"> Selous Game Reserve</label>
+                        <label><input type="radio" name="q4" value="Both"> Both</label>
+                        <label><input type="radio" name="q4" value="Neither"> Neither</label>
+                    </div>
+                    <div class="answer" id="answer4">Correct answer: Both</div>
+                </div>
+
+                <div class="question">
+                    <h3>5. What year did Tanzania gain independence from Britain?</h3>
+                    <div class="options">
+                        <label><input type="radio" name="q5" value="1961"> 1961</label>
+                        <label><input type="radio" name="q5" value="1963"> 1963</label>
+                        <label><input type="radio" name="q5" value="1965"> 1965</label>
+                        <label><input type="radio" name="q5" value="1970"> 1970</label>
+                    </div>
+                    <div class="answer" id="answer5">Correct answer: 1961</div>
+                </div>
+
+                <button type="button" class="btn"
+                    onclick="document.getElementById('quiz-form').classList.add('show-answers')">Submit Quiz</button>
+            </form>
+        </div>
+    </main>
     <footer></footer>
     <!-- Mobile Navigations -->
     <nav>
