@@ -172,13 +172,24 @@ aside.container {
 
 /* TANZANIA QUIZ 101 */
 
+#quiz-form {
+    margin: inherit;
+}
+
 .quiz-container {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 16px auto 56px auto;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
     background-color: #f9f9f9;
+}
+
+.quiz-container h2 {
+    text-align: center;
+    padding: 8px;
+    background-color: #d9a872;
+    border-radius: 8px;
 }
 
 .question {
