@@ -12,6 +12,7 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
+header p,
 h1 {
     width: 100vw;
     font-size: 5vw;
@@ -21,6 +22,14 @@ h1 {
     font-style: normal;
     background-color: #000;
     color: #fff;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+header p {
+    padding: 5px 0;
+    font-size: 3vw;
 }
 
 .flex-row-images {
@@ -75,13 +84,14 @@ nav a {
 }
 
 .section h2 {
-    font-size: 1.5em;
+    font-size: 5vw;
     margin-bottom: 10px;
     font-family: "Kanit", sans-serif;
 }
 
 .section p {
     text-align: justify;
+    font-size: 3vw;
 }
 
 #landing-page .section a {
@@ -100,8 +110,14 @@ nav a {
         grid-column-gap: 20px;
     }
 
-    .slogan {
-        font-size: 2em;
+    .section h2 {
+        font-size: 2vw !important;
+    }
+
+    .section p,
+    header p,
+    #discover figcaption {
+        font-size: 1.5vw !important;
     }
 }
 
@@ -119,7 +135,6 @@ nav a {
 
 #discover p {
     padding: 5px 0;
-    font-size: 1rem;
 }
 
 #discover figure {
@@ -131,6 +146,8 @@ nav a {
 
 #discover figcaption {
     text-align: justify;
+    font-size: 2.5vw;
+    font-style: italic;
 }
 
 #discover img {
@@ -144,4 +161,11 @@ nav a {
 
 iframe {
     width: 100%;
+}
+
+aside.container {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 5px solid #007BFF;
 }
