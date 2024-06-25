@@ -245,6 +245,8 @@ aside.container {
     height: auto;
     border: 2px solid #ddd;
     border-radius: 5px;
+    height: 200px;
+    object-fit: cover;
 }
 .gallery-item figcaption {
     text-align: center;
