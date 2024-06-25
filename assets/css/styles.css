@@ -236,19 +236,22 @@ aside.container {
 }
 
 /* GALLERY */
-.gallery figcaption {
-    background-color: wheat;
-    border: 1px solid black;
+.gallery {
     padding: 20px;
-    font-size: 16px;
     text-align: center;
-    width: 100%;
 }
-.gallery section {
-    margin-bottom: 48px;
-}
-
 .gallery-item img {
     width: 100%;
     height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+.gallery-item figcaption {
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+    background-color: wheat;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 20px;
 }
