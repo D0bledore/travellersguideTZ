@@ -103,14 +103,6 @@ nav a {
     background-color: rgba(222, 184, 135, 0.007);
 }
 
-@media(min-width: 768px) {
-    .flex-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 20px;
-    }
-}
-
 /* DISCOVER ARTICLE */
 
 #discover div {
@@ -187,7 +179,7 @@ aside.container {
 /* FOOTER */
 footer {
     display: flex;
-    justify-content: center;
+    justify-content:stretch;
     margin-bottom: 3rem;
 }
 
@@ -196,16 +188,16 @@ footer figure {
     background-color: #ffe29f;
     border: 1px solid #ddd;
     border-radius: 8px;
-    width: 30%;
+    width: 200%;
 }
 
 #contact {
-    width: 70%;
     padding: 16px;
     background-color: #ffe29f;
     border: 1px solid #ddd;
     border-radius: 8px;
     margin: 0 2px !important;
+    width: 100%;
 }
 
 #contact input {
@@ -229,4 +221,16 @@ footer figure {
     border-radius: 5px;
     cursor: pointer;
     text-align: center;
+}
+
+/* MEDIA QUERY */
+@media(min-width: 768px) {
+    .flex-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+    }
+    footer figure {
+        width: 50%;
+    }
 }
