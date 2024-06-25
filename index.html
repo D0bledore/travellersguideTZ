@@ -278,11 +278,11 @@
         <form class="section" id="contact" method="POST" action="https://formdump.codeinstitute.net/">
             <h2>Contact form</h2>
             <label for="name">Name: </label>
-            <input type="text" name="name" id="name"><br>
+            <input type="text" name="name" id="name" required><br>
             <label for="email">Email: </label>
-            <input type="email" name="email" id="email"><br>
+            <input type="email" name="email" id="email" required><br>
             <label for="message">Write a message: </label><br>
-            <textarea name="message" id="message"></textarea>
+            <textarea name="message" id="message" required></textarea>
             <input type="submit" name="submit" id="submit" value="Send!">
         </form>
     </footer>
@@ -291,7 +291,7 @@
         <a href="index.html" title="Go to Home!"><i class="material-icons">home</i></a>
         <a href="gallery.html" title="Check out our marvelous Gallery!"><span
                 class="material-symbols-outlined">gallery_thumbnail</span></a>
-        <a href="plan.html" title="Contact the developer of the site!"><span
+        <a href="index.html#contact" title="Contact the developer of the site!"><span
                 class="material-icons">book</span></a>
     </nav>
 </body>
