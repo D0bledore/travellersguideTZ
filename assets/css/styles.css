@@ -122,9 +122,6 @@ nav a {
 }
 
 /* DISCOVER ARTICLE */
-#discover {
-    padding: 0 2% 7% 2%;
-}
 
 #discover div {
     display: flex;
@@ -240,6 +237,7 @@ aside.container {
     padding: 20px;
     text-align: center;
 }
+
 .gallery-item img {
     width: 100%;
     height: auto;
@@ -248,6 +246,7 @@ aside.container {
     height: 500px;
     object-fit: cover;
 }
+
 .gallery-item figcaption {
     text-align: center;
     width: 100%;
@@ -273,11 +272,8 @@ footer figure {
     border-radius: 8px;
 }
 
-footer img {
-    width: 30vw;
-}
-
 #contact {
+    width: 70%;
     padding: 16px;
     background-color: #ffe29f;
     border: 1px solid #ddd;
@@ -306,4 +302,4 @@ footer img {
     border-radius: 5px;
     cursor: pointer;
     text-align: center;
-}	
+}
