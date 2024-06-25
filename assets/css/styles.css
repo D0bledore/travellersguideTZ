@@ -15,7 +15,7 @@ body {
 header p,
 h1 {
     width: 100vw;
-    font-size: 5vw;
+    font-size: 4.5vw;
     text-align: center;
     font-family: "Kanit", sans-serif;
     font-weight: 700;
@@ -252,8 +252,9 @@ aside.container {
     text-align: center;
     width: 100%;
     margin-top: 5px;
-    background-color: wheat;
+    background-color: #fff;
     border: 2px solid #ddd;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 16px;
+    padding: 12px;
 }
